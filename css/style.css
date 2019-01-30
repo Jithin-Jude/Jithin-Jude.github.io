@@ -53,12 +53,12 @@ body {
 }
 
 ::selection {
-    background-color: #24b662;
+    background-color: #3800a8;
     color: #ffffff;
 }
 
 ::-moz-selection {
-    background-color: #24b662;
+    background-color: #3800a8;
     color: #ffffff;
 }
 
@@ -120,7 +120,7 @@ fieldset {
 .section-title h2 {
     margin-top: 0;
     font-weight: 600;
-    border-bottom: 4px double #24b662;
+    border-bottom: 4px double #3800a8;
 	border-radius: 25px;
     font-size: 30px;
     margin: 0 auto;
@@ -195,7 +195,7 @@ fieldset {
 .button-style:hover,
 .button-style:active,
 .button-style:focus {
-	background: #24b662;
+	background: #3800a8;
 	color: #ffffff !important;
 }
 
@@ -260,7 +260,7 @@ body.loaded #preloader{
     margin: -75px 0 0 -75px;
     border-radius: 50%;
     border: 3px solid transparent;
-    border-top-color: #24b662;
+    border-top-color: #3800a8;
     -webkit-animation: spin 2s linear infinite;
     animation: spin 2s linear infinite;
 }
@@ -274,7 +274,7 @@ body.loaded #preloader{
     bottom: 5px;
     border-radius: 50%;
     border: 3px solid transparent;
-    border-top-color: #24b662;
+    border-top-color: #3800a8;
     -webkit-animation: spin 3s linear infinite;
     animation: spin 3s linear infinite;
 }
@@ -288,7 +288,7 @@ body.loaded #preloader{
     bottom: 15px;
     border-radius: 50%;
     border: 3px solid transparent;
-    border-top-color: #24b662;
+    border-top-color: #3800a8;
     -webkit-animation: spin 1.5s linear infinite;
     animation: spin 1.5s linear infinite;
 }
@@ -539,7 +539,7 @@ ul.portfolio li:hover {
 
 ul.portfolio li.active {
     color: #ffffff;
-    background-color: #24b662;
+    background-color: #3800a8;
     padding: 5px 20px;
     border-radius: 20px;
     box-shadow: 0px 1px 2px 0px rgba(90, 91, 95, 0.15);
@@ -578,7 +578,7 @@ ul.portfolio li.active {
   opacity: 0;
   left: 0%;
   right: 0%;
-  background-color: #24b662;
+  background-color: #3800a8;
   width: 70px;
   height: 70px;
   border-radius: 50%;
@@ -595,7 +595,7 @@ ul.portfolio li.active {
 .mfp-image-holder .mfp-close, .mfp-iframe-holder .mfp-close {
 	margin-top: 40px;
     font-size: 50px;
-    background-color: #24b662;
+    background-color: #3800a8;
     width: 44px;
 	right: 0px;
 }
@@ -637,7 +637,7 @@ ul.portfolio li.active {
 .testimonial-word h2 {
     font-size: 12px;
     text-transform: uppercase;
-	color: #24b662;
+	color: #3800a8;
     font-weight: 700;
     letter-spacing: 4px;
     margin: 20px 0px;
@@ -648,7 +648,7 @@ ul.portfolio li.active {
 }
 
 .owl-navi {
-	color: #24b662;
+	color: #3800a8;
 }
 
 .owl-navi:hover {
@@ -726,7 +726,7 @@ ul.portfolio li.active {
 }
 
 .services-section hr {
-  border-bottom: 2px solid #24b662;
+  border-bottom: 2px solid #3800a8;
   width: 42px;
   margin-left: 0px;
 }
@@ -829,14 +829,14 @@ ul.portfolio li.active {
 }
 
 .form-control:focus {
-	border-color: #24b662;
+	border-color: #3800a8;
 	border-width: 2px;
 }
 
 .map {
     width: 100%;
     height: 340px;
-    border: 1px solid #24b662;
+    border: 1px solid #3800a8;
 }
 
 
@@ -1021,10 +1021,10 @@ ul.portfolio li.active {
         padding: 11px 15px;
     }
     .navigation-menu .navbar-nav li a:hover {
-        color: #24b662;
+        color: #3800a8;
     }
     .navigation-background .navigation-menu .navbar-nav li a:hover {
-        color: #24b662;
+        color: #3800a8;
     }
     .navigation-background .navigation-menu .navbar-nav li a {
         padding: 11px 15px;
@@ -1120,7 +1120,7 @@ ul.portfolio li.active {
 /* Scroll To Top */
 
 .scroll-to-top {
-    background-color: #24b662;
+    background-color: #3800a8;
     display: none;
     width: 50px;
     height: 50px;
@@ -1460,7 +1460,7 @@ ul.portfolio li.active {
 }
 
 .uipasta-credit a {
-    color: #24b662;
+    color: #3800a8;
     font-weight: 600;
 }
 
