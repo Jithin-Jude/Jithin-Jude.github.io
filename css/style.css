@@ -53,12 +53,12 @@ body {
 }
 
 ::selection {
-    background-color: #3800a8;
+    background-color: #e83d1b;
     color: #ffffff;
 }
 
 ::-moz-selection {
-    background-color: #3800a8;
+    background-color: #e83d1b;
     color: #ffffff;
 }
 
@@ -120,7 +120,7 @@ fieldset {
 .section-title h2 {
     margin-top: 0;
     font-weight: 600;
-    border-bottom: 4px double #3800a8;
+    border-bottom: 4px double #e83d1b;
 	border-radius: 25px;
     font-size: 30px;
     margin: 0 auto;
@@ -195,7 +195,7 @@ fieldset {
 .button-style:hover,
 .button-style:active,
 .button-style:focus {
-	background: #3800a8;
+	background: #e83d1b;
 	color: #ffffff !important;
 }
 
@@ -260,7 +260,7 @@ body.loaded #preloader{
     margin: -75px 0 0 -75px;
     border-radius: 50%;
     border: 3px solid transparent;
-    border-top-color: #3800a8;
+    border-top-color: #e83d1b;
     -webkit-animation: spin 2s linear infinite;
     animation: spin 2s linear infinite;
 }
@@ -274,7 +274,7 @@ body.loaded #preloader{
     bottom: 5px;
     border-radius: 50%;
     border: 3px solid transparent;
-    border-top-color: #3800a8;
+    border-top-color: #e83d1b;
     -webkit-animation: spin 3s linear infinite;
     animation: spin 3s linear infinite;
 }
@@ -288,7 +288,7 @@ body.loaded #preloader{
     bottom: 15px;
     border-radius: 50%;
     border: 3px solid transparent;
-    border-top-color: #3800a8;
+    border-top-color: #e83d1b;
     -webkit-animation: spin 1.5s linear infinite;
     animation: spin 1.5s linear infinite;
 }
@@ -539,7 +539,7 @@ ul.portfolio li:hover {
 
 ul.portfolio li.active {
     color: #ffffff;
-    background-color: #3800a8;
+    background-color: #e83d1b;
     padding: 5px 20px;
     border-radius: 20px;
     box-shadow: 0px 1px 2px 0px rgba(90, 91, 95, 0.15);
@@ -578,7 +578,7 @@ ul.portfolio li.active {
   opacity: 0;
   left: 0%;
   right: 0%;
-  background-color: #3800a8;
+  background-color: #e83d1b;
   width: 70px;
   height: 70px;
   border-radius: 50%;
@@ -595,7 +595,7 @@ ul.portfolio li.active {
 .mfp-image-holder .mfp-close, .mfp-iframe-holder .mfp-close {
 	margin-top: 40px;
     font-size: 50px;
-    background-color: #3800a8;
+    background-color: #e83d1b;
     width: 44px;
 	right: 0px;
 }
@@ -637,7 +637,7 @@ ul.portfolio li.active {
 .testimonial-word h2 {
     font-size: 12px;
     text-transform: uppercase;
-	color: #3800a8;
+	color: #e83d1b;
     font-weight: 700;
     letter-spacing: 4px;
     margin: 20px 0px;
@@ -648,7 +648,7 @@ ul.portfolio li.active {
 }
 
 .owl-navi {
-	color: #3800a8;
+	color: #e83d1b;
 }
 
 .owl-navi:hover {
@@ -726,7 +726,7 @@ ul.portfolio li.active {
 }
 
 .services-section hr {
-  border-bottom: 2px solid #3800a8;
+  border-bottom: 2px solid #e83d1b;
   width: 42px;
   margin-left: 0px;
 }
@@ -829,14 +829,14 @@ ul.portfolio li.active {
 }
 
 .form-control:focus {
-	border-color: #3800a8;
+	border-color: #e83d1b;
 	border-width: 2px;
 }
 
 .map {
     width: 100%;
     height: 340px;
-    border: 1px solid #3800a8;
+    border: 1px solid #e83d1b;
 }
 
 
@@ -1021,10 +1021,10 @@ ul.portfolio li.active {
         padding: 11px 15px;
     }
     .navigation-menu .navbar-nav li a:hover {
-        color: #3800a8;
+        color: #e83d1b;
     }
     .navigation-background .navigation-menu .navbar-nav li a:hover {
-        color: #3800a8;
+        color: #e83d1b;
     }
     .navigation-background .navigation-menu .navbar-nav li a {
         padding: 11px 15px;
@@ -1120,7 +1120,7 @@ ul.portfolio li.active {
 /* Scroll To Top */
 
 .scroll-to-top {
-    background-color: #3800a8;
+    background-color: #e83d1b;
     display: none;
     width: 50px;
     height: 50px;
@@ -1460,7 +1460,7 @@ ul.portfolio li.active {
 }
 
 .uipasta-credit a {
-    color: #3800a8;
+    color: #e83d1b;
     font-weight: 600;
 }
 
@@ -1545,7 +1545,7 @@ ul.portfolio li.active {
     font-size: 20px;
     font-weight: 400;
     margin: 0 0 10px 0;
-    color: #66D37E;
+    color: #e83d1b;
   }
   .gtco-card-item .gtco-text span {
     color: #b3b3b3;
@@ -1603,8 +1603,8 @@ ul.portfolio li.active {
     visibility: visible;
     bottom: 0px;
     color: #fff !important;
-    border: 2px solid #7ad98f !important;
-    background: #7ad98f !important;
+    border: 2px solid #e83d1b !important;
+    background: #e83d1b !important;
   }
   .gtco-card-item:hover figure .overlay, .gtco-card-item:focus figure .overlay {
     opacity: 1;
@@ -1654,7 +1654,7 @@ ul.portfolio li.active {
     color: #000;
   }
   .gtco-top #gtco-logo em {
-    color: #66D37E;
+    color: #e83d1b;
   }
   .gtco-top .social-icons {
     text-align: right;
@@ -1794,7 +1794,7 @@ ul.portfolio li.active {
     font-size: 15px;
   }
   .gtco-nav ul li.has-dropdown .dropdown li a:hover {
-    color: #66D37E;
+    color: #e83d1b;
   }
   .gtco-nav ul li.has-dropdown .dropdown li.active > a {
     color: #000 !important;
@@ -1803,7 +1803,7 @@ ul.portfolio li.active {
     color: #fff;
   }
   .gtco-nav ul li.btn-cta a {
-    color: #66D37E;
+    color: #e83d1b;
   }
   .gtco-nav ul li.btn-cta a span {
     border: 2px solid rgba(255, 255, 255, 0.5);
@@ -1823,10 +1823,10 @@ ul.portfolio li.active {
   }
   .gtco-nav ul li.btn-cta a:hover span {
     background: #fff;
-    color: #66D37E;
+    color: #e83d1b;
   }
   .gtco-nav ul li.active > a {
-    color: #66D37E !important;
+    color: #e83d1b !important;
   }
   
   #gtco-header {
@@ -1896,7 +1896,7 @@ ul.portfolio li.active {
   }
   #gtco-header h1 strong {
     font-weight: 700;
-    color: #66D37E;
+    color: #e83d1b;
   }
   @media screen and (max-width: 768px) {
     #gtco-header h1 {
@@ -1999,7 +1999,7 @@ ul.portfolio li.active {
     width: 100%;
   }
   .gtco-cover a {
-    color: #66D37E;
+    color: #e83d1b;
   }
   .gtco-cover a:hover {
     color: white;
@@ -2128,7 +2128,7 @@ ul.portfolio li.active {
     display: inline-block;
     zoom: 1;
     *display: inline;
-    color: #66D37E;
+    color: #e83d1b;
     padding-left: 10px;
     padding-right: 10px;
   }
@@ -2246,7 +2246,7 @@ ul.portfolio li.active {
   #gtco-counter .counter {
     font-size: 50px;
     margin-bottom: 10px;
-    color: #66D37E;
+    color: #e83d1b;
     font-weight: 100;
     display: block;
   }
@@ -2326,7 +2326,7 @@ ul.portfolio li.active {
     -webkit-transform: skewY(-12deg);
     -moz-transform: skewY(-12deg);
     transform: skewY(-12deg);
-    background: #66D37E;
+    background: #e83d1b;
   }
   #gtco-features .gtco-heading h2 {
     color: #fff;
@@ -2341,7 +2341,7 @@ ul.portfolio li.active {
     width: 90px;
     height: 90px;
     border: 1px solid rgba(255, 255, 255, 0.8);
-    background: #66D37E;
+    background: #e83d1b;
   }
   #gtco-features .feature-center .icon i {
     color: #fff;
