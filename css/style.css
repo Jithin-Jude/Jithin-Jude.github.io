@@ -604,6 +604,7 @@ ul.portfolio li.active {
     cursor: inherit;
 }
 
+/* Skills */
 
 
 /* Testimonial */
@@ -2355,3 +2356,65 @@ ul.portfolio li.active {
   #gtco-features .feature-center p {
     color: rgba(255, 255, 255, 0.7);
   }
+
+  /*===================================================================================================*/
+
+            /*** RADIAL PROGRESS ***/
+            /* Circumference = 2πr */
+            /* π = 3.1415926535898 */
+            /* r = 35 */
+            
+            svg.radial-progress {
+                height: auto;
+                max-width: 200px;
+                padding: 1em;
+                transform: rotate(-90deg);
+                width: 100%;
+              }
+              
+              svg.radial-progress circle {
+                fill: rgba(0,0,0,0);
+                stroke: #fff;
+                stroke-dashoffset: 219.91148575129; /* Circumference */
+                stroke-width: 2.5;
+              }
+              
+              svg.radial-progress circle.incomplete { opacity: 0.25; }
+              
+              svg.radial-progress circle.complete { stroke-dasharray: 219.91148575129; /* Circumference */ }
+              
+              svg.radial-progress text {
+                fill: #5e5e5e;
+                text-anchor: middle;
+              }
+              
+              /*** COLORS ***/
+              /* Primary */
+              
+              svg.radial-progress:nth-of-type(6n+1) circle { stroke: #e83d1b; }
+              
+              /* Secondary */
+              
+              svg.radial-progress:nth-of-type(6n+2) circle { stroke: #e83d1b; }
+              
+              /* Tertiary */
+              
+              svg.radial-progress:nth-of-type(6n+3) circle { stroke: #e83d1b; }
+              
+              /* Quaternary */
+              
+              svg.radial-progress:nth-of-type(6n+4) circle { stroke: #e83d1b; }
+              
+              /* Quinary */
+              
+              svg.radial-progress:nth-of-type(6n+5) circle { stroke: #e83d1b; }
+  
+              svg.radial-progress:nth-of-type(6n+6) circle { stroke: #e83d1b; }
+
+  .small-percentage{
+      font-size: 10px;
+  }
+
+  .extra-small-percentage{
+    font-size: 7px;
+}

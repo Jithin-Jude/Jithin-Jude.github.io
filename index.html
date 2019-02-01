@@ -258,7 +258,61 @@
             </div>
     <!-- Projects End -->
     
+    <!-- Skills Start -->
+
     
+    <center>
+        <h2>My Skills</h2>
+        <p>Lifelong learning.<br/><br/></p>
+    </center>
+        <center>
+        <section class="row"> 
+        <svg class="radial-progress" data-percentage="95" viewBox="0 0 80 80">
+        <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+        <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+        <text class="percentage" x="50%" y="50%" transform="matrix(0, 1, -1, 0, 80, 0)">95%</text>
+        <text class="extra-small-percentage" x="50%" y="70%" transform="matrix(0, 1, -1, 0, 80, 0)">Android SDK</text>
+        </svg> 
+
+        <svg class="radial-progress" data-percentage="90" viewBox="0 0 80 80">
+                <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+                <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 167.13272917097697;"></circle>
+                <text class="percentage" x="50%" y="50%" transform="matrix(0, 1, -1, 0, 80, 0)">90%</text>
+                <text class="small-percentage" x="50%" y="70%" transform="matrix(0, 1, -1, 0, 80, 0)">Java</text>
+                </svg> 
+    
+        <svg class="radial-progress" data-percentage="15" viewBox="0 0 80 80">
+        <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+        <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 147.3406954533613;"></circle>
+        <text class="percentage" x="50%" y="50%" transform="matrix(0, 1, -1, 0, 80, 0)">15%</text>
+        <text class="small-percentage" x="50%" y="70%" transform="matrix(0, 1, -1, 0, 80, 0)">Kotlin</text>
+        </svg> 
+    
+        <svg class="radial-progress" data-percentage="45" viewBox="0 0 80 80">
+        <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+        <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 63.774330867872806;"></circle>
+        <text class="percentage" x="50%" y="50%" transform="matrix(0, 1, -1, 0, 80, 0)">45%</text>
+        <text class="small-percentage" x="50%" y="70%" transform="matrix(0, 1, -1, 0, 80, 0)">Flutter</text>
+        </svg> 
+    
+        <svg class="radial-progress" data-percentage="60" viewBox="0 0 80 80">
+        <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+        <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 167.13272917097697;"></circle>
+        <text class="percentage" x="50%" y="50%" transform="matrix(0, 1, -1, 0, 80, 0)">60%</text>
+        <text class="small-percentage" x="50%" y="70%" transform="matrix(0, 1, -1, 0, 80, 0)">Git</text>
+        </svg> 
+    
+        <svg class="radial-progress" data-percentage="75" viewBox="0 0 80 80">
+        <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+        <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 0;"></circle>
+        <text class="percentage" x="50%" y="50%" transform="matrix(0, 1, -1, 0, 80, 0)">75%</text>
+        <text class="small-percentage" x="50%" y="70%" transform="matrix(0, 1, -1, 0, 80, 0)">Python</text>
+        </svg> 
+
+      </section>
+      </center>
+
+    <!-- Skills End -->
     
      <!-- Testimonial Start -->
      <section id="testimonials" class="testimonial-section section-space-padding">
@@ -267,7 +321,7 @@
                 <div class="col-sm-12">
                     <div class="section-title">
                         <h2>Testimonials.</h2>
-                        <p>Here from others!</p>
+                        <p>What they say</p>
                     </div>
                 </div>
             </div>
@@ -519,7 +573,41 @@
     
     <!-- Main Javascript File  -->
     <script type="text/javascript" src="js/scripts.js"></script>
-  
+
+    <!-- RADIAL PROGRESS Javascript File  -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" crossorigin="anonymous"></script> 
+    <script>
+            $(function(){
+            
+                // Remove svg.radial-progress .complete inline styling
+                $('svg.radial-progress').each(function( index, value ) { 
+                    $(this).find($('circle.complete')).removeAttr( 'style' );
+                });
+            
+                // Activate progress animation on scroll
+                $(window).scroll(function(){
+                    $('svg.radial-progress').each(function( index, value ) { 
+                        // If svg.radial-progress is approximately 25% vertically into the window when scrolling from the top or the bottom
+                        if ( 
+                            $(window).scrollTop() > $(this).offset().top - ($(window).height() * 0.75) &&
+                            $(window).scrollTop() < $(this).offset().top + $(this).height() - ($(window).height() * 0.25)
+                        ) {
+                            // Get percentage of progress
+                            percent = $(value).data('percentage');
+                            // Get radius of the svg's circle.complete
+                            radius = $(this).find($('circle.complete')).attr('r');
+                            // Get circumference (2πr)
+                            circumference = 2 * Math.PI * radius;
+                            // Get stroke-dashoffset value based on the percentage of the circumference
+                            strokeDashOffset = circumference - ((percent * circumference) / 100);
+                            // Transition progress for 1.25 seconds
+                            $(this).find($('circle.complete')).animate({'stroke-dashoffset': strokeDashOffset}, 1250);
+                        }
+                    });
+                }).trigger('scroll');
+            
+            });
+            </script>
   
   </body>
  </html>
