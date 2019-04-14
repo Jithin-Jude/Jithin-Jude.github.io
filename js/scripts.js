@@ -110,7 +110,7 @@
 		
         $(window).load(function(){
         $(".typing").typed({
-            strings: ["I am A Developer.", "I Live in India.", "I Make Apps."],    /* You can change the home section typing text from
+            strings: ["Android Developer.","Flutter Developer.", "I Live in India.", "I Make Apps."],    /* You can change the home section typing text from
 	                                                                                            here and do not use "&" use "and" */
             typeSpeed: 50
           });
@@ -224,3 +224,6 @@
             });
 
    })(jQuery);
+
+/* Sliding Banner ================================================================================================*/
+
