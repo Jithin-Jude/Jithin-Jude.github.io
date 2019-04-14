@@ -409,8 +409,19 @@ body.loaded #preloader{
     transition: all 0.4s ease-out;
 }
 
+.header-top-area-projects {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+  -webkit-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
+}
+
 .logo {
     padding-top: 28px;
+    padding-bottom: 20px;
     -webkit-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
 }
@@ -2444,4 +2455,19 @@ ul.portfolio li.active {
     font-size: 0;
     animation: 10s slidy infinite; 
   }
+
+.all-projects{
+    text-align: center;
+    font-size: 24px;
+    padding-bottom: 50px;
+}
   
+.all-projects a{
+    color: #747474;
+    text-align: center;
+}
+
+.all-projects a:hover{
+    color: #e83d1b;
+    text-align: center;
+}

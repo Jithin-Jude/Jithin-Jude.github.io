@@ -67,6 +67,14 @@
                 $('.header-top-area').removeClass('navigation-background');
             }
         });
+
+        $(window).on('scroll', function () {
+            if ($(window).scrollTop() > -1) {
+                $('.header-top-area-projects').addClass('navigation-background');
+            } else {
+                $('.header-top-area-projects').removeClass('navigation-background');
+            }
+        });
 		
 		
 		
