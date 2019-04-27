@@ -2453,8 +2453,10 @@ ul.portfolio li.active {
     left: 0;
     text-align: left;
     font-size: 0;
-    animation: 10s slidy infinite; 
+    animation: 20s slidy infinite; 
   }
+
+  /*Sliding Banner End*/
 
 .all-projects{
     text-align: center;
