@@ -2473,3 +2473,7 @@ ul.portfolio li.active {
     color: #e83d1b;
     text-align: center;
 }
+
+.sub-head{
+  font-style: italic;
+}
