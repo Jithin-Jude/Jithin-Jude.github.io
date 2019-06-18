@@ -238,7 +238,7 @@ fieldset {
     left: 0;
     height: 100%;
     width: 100%;
-    background: #000000;
+    background: #e83d1b;
     z-index: 999;
     -webkit-transition: all .5s ease;
     -moz-transition: all .5s ease;
@@ -251,7 +251,7 @@ body.loaded #preloader{
 }
 
 .loader {
-  color: #e83d1b;
+  color: #ffffff;
   font-size: 20px;
   margin: 100px auto;
   width: 1em;
