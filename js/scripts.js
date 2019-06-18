@@ -1,9 +1,8 @@
 /*
    
     Template Name : Rolling - Freelancer Portfolio Template
-    Author : UiPasta Team
-    Website : http://www.uipasta.com/
-    Support : http://www.uipasta.com/support/
+    Author : Jithin Jude
+    Website : https://jithin-jude.github.io
 	
 	
 */
