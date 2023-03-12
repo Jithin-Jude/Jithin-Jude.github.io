@@ -117,7 +117,7 @@
 		
         $(window).load(function(){
         $(".typing").typed({
-            strings: ["Android Developer.","Flutter Developer.", "ML Enthusiast.", "Open Source Enthusiast.", "I Make Apps."],    /* You can change the home section typing text from
+            strings: ["ML Enthusiast(Deep learning).", "Open Source Enthusiast.", "Android/Flutter Developer.", "Cosmology.", "I Make Apps."],    /* You can change the home section typing text from
 	                                                                                            here and do not use "&" use "and" */
             typeSpeed: 50
           });
