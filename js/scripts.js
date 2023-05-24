@@ -172,6 +172,60 @@
 		  
           });
 
+		 
+        /* Latest updates slider */
+	    
+var slider = document.getElementById("slider");
+var images = slider.querySelectorAll("img");
+
+// Set the interval between slides
+var interval = 5000;
+
+// Start the slider
+function start() {
+  var currentImage = images[0];
+  currentImage.style.display = "block";
+
+  // Create a timer
+  var timer = setInterval(function() {
+    // Get the next image
+    var nextImage = images[currentImage.dataset.slideNumber + 1];
+
+    // If there is no next image, go back to the first image
+    if (nextImage === null) {
+      nextImage = images[0];
+    }
+
+    // Hide the current image
+    currentImage.style.display = "none";
+
+    // Show the next image
+    nextImage.style.display = "block";
+
+    // Update the current image
+    currentImage = nextImage;
+  }, interval);
+}
+
+// Stop the slider
+function stop() {
+  clearInterval(timer);
+}
+
+// Start the slider when the page loads
+window.onload = start;
+
+// Add a button to start and stop the slider
+var button = document.createElement("button");
+button.textContent = "Start";
+button.onclick = start;
+
+var stopButton = document.createElement("button");
+stopButton.textContent = "Stop";
+stopButton.onclick = stop;
+
+slider.appendChild(button);
+slider.appendChild(stopButton);
        
 	   
 		 
