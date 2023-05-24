@@ -175,18 +175,17 @@
 		 
         /* Latest updates slider */
 	    
-    var sliderImages = document.querySelectorAll('.slider img');
-    var currentImageIndex = 0;
-    var maxImageIndex = sliderImages.length - 1;
+document.addEventListener("DOMContentLoaded", function() {
+  var slides = document.querySelectorAll(".slide");
+  var currentSlide = 0;
+  var slideInterval = setInterval(nextSlide, 2000); // Adjust the interval (in milliseconds) as needed
 
-    function changeImage() {
-      sliderImages[currentImageIndex].style.display = 'none';
-      currentImageIndex = (currentImageIndex < maxImageIndex) ? (currentImageIndex + 1) : 0;
-      sliderImages[currentImageIndex].style.display = 'block';
-    }
-
-    setInterval(changeImage, 3000); // Change image every 3 seconds
-       
+  function nextSlide() {
+    slides[currentSlide].classList.remove("active");
+    currentSlide = (currentSlide + 1) % slides.length;
+    slides[currentSlide].classList.add("active");
+  }
+});    
 	   
 		 
         /* Testimonial Carousel/Slider */
