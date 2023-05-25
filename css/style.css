@@ -639,15 +639,20 @@ img {vertical-align: middle;}
   background-color: #717171;
 }
 
-/* Fading animation */
-.fade {
-  animation-name: fade;
-  animation-duration: 1.5s;
+/* Slide animation */
+.slide {
+  float: left;
+  animation: slide 5s infinite;
 }
 
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
+@keyframes slide {
+  0% {
+    left: 0;
+  }
+
+  100% {
+    left: -100%;
+  }
 }
 
 /* On smaller screens, decrease text size */
