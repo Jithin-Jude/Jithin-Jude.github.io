@@ -117,7 +117,7 @@
 		
         $(window).load(function(){
         $(".typing").typed({
-            strings: ["Full Stack Mobile Application Developer.", "I Make Apps."],    /* You can change the home section typing text from
+            strings: ["Senior Mobile Product Engineer.", "I Make Apps."],    /* You can change the home section typing text from
 	                                                                                            here and do not use "&" use "and" */
             typeSpeed: 50
           });
